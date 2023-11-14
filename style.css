@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+}
+
+#todoList {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #3498db;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #bdc3c7;
+    padding: 10px;
+    color: #333;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Add some styles for checked tasks */
+li.checked {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Add some styles for checked tasks */
+li.checked {
+    text-decoration: line-through;
+    color: #888;
+}
